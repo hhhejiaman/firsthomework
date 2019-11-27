@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "myFont";
+    src: url("../static/font21283/ChivasPrioriBlack.otf");
+}
+.topbox{
+    position:relative;
+    float:left;
+    left:100px;
+    top:100px;
+    padding-top:20px;
+    padding-left: 15px;
+    width:350px;
+    height:60px;
+    text-align: left;
+    line-height: 150%;
+    background-color:rgb(245, 63, 63);
+    border-radius: 10px;
+}
+span{
+    font-family: "myFont",serif,"Bitstream Vera Serif";
+    font-size:30px;
+    color:white;
+}
+.triangle1{
+    position:absolute;
+    left:400px;
+    top:130px;
+    width:0px;
+    height:0px;
+    border:15px solid transparent;
+    border-top:15px solid white;
+}
+.triangle2{
+    position:absolute;
+    left:400px;
+    top:200px;
+    width:0px;
+    height:0px;
+    border:15px solid transparent;
+    border-bottom:15px solid rgb(245, 63, 63);
+}
+.bottombox{
+    position:absolute;
+    left:110px;
+    top:230px;
+    width:365px;
+    height:250px;
+    background-color: rgb(245, 63, 63);
+    border-radius: 10px;
+}
+.pic{
+    position:relative;
+    width:60px;
+    height:60px;
+}
+.pic1{
+    position:absolute;
+    right:15px;
+    top:15px;
+    width:35px; 
+    height:35px; 
+}
