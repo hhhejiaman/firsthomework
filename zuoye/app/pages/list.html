@@ -4,66 +4,65 @@
 <style>
     @font-face {
         font-family: "myFont";
-        src: url("myFont.woff");
+        src: url("../static/font21283/ChivasPrioriBlack.otf");
     }
     .topbox{
-        width:350px;
-        height:60px;
-        background-color:rgb(245, 63, 63);
-        float:left;
         position:relative;
+        float:left;
         left:100px;
         top:100px;
-        border-radius: 10px;
-        text-align: left;
-        line-height: 150%;
         padding-top:20px;
         padding-left: 15px;
-        
+        width:350px;
+        height:60px;
+        text-align: left;
+        line-height: 150%;
+        background-color:rgb(245, 63, 63);
+        border-radius: 10px;
     }
     span{
+        font-family: "myFont",serif,"Bitstream Vera Serif";
         font-size:30px;
         color:white;
-        font-family: "myFont", "Bitstream Vera Serif", serif;
     }
     .triangle1{
+        position:absolute;
+        left:400px;
+        top:130px;
         width:0px;
         height:0px;
         border:15px solid transparent;
         border-top:15px solid white;
-        position:absolute;
-        left:400px;
-        top:130px;
     }
     .triangle2{
+        position:absolute;
+        left:400px;
+        top:200px;
         width:0px;
         height:0px;
         border:15px solid transparent;
         border-bottom:15px solid rgb(245, 63, 63);
-        position:absolute;
-        left:400px;
-        top:200px;
     }
     .bottombox{
-        background-color: rgb(245, 63, 63);
         position:absolute;
         left:110px;
         top:230px;
         width:365px;
         height:250px;
+        background-color: rgb(245, 63, 63);
         border-radius: 10px;
     }
     .pic{
+        position:relative;
         width:60px;
         height:60px;
-        position:relative;
     }
     .pic1{
-        width:35px; 
-        height:35px; 
         position:absolute;
         right:15px;
         top:15px;
+        width:35px; 
+        height:35px; 
     }
 </style>
 </head>
@@ -77,7 +76,7 @@
                     <tr>
                         <th>
                             <div class="pic">
-                                <img class="pic1"src="heart.png" >
+                                <img class="pic1"src="../static/heart.png" >
                             </div>
                         </th>
                         <th><span>Like</span></th>
@@ -90,7 +89,7 @@
                         <tr>
                             <th>
                                 <div class="pic">
-                                    <img class="pic1" src="star.png"
+                                    <img class="pic1" src="../static/star.png"
                                 </div>
                             </th>
                             <th><span>Favorites</span></th>
@@ -104,7 +103,7 @@
                             <tr>
                                 <th>
                                     <div class="pic">
-                                        <img class="pic1" src="chat.png"
+                                        <img class="pic1" src="../static/chat.png"
                                     </div>
                                 </th>
                                 <th><span>Discuss</span></th>
